@@ -241,6 +241,7 @@
 				TargetAttributes = {
 					4A27FF2A1C08462B0092A400 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 7HZEUGR5QE;
 					};
 					4A27FF461C08462B0092A400 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -449,10 +450,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SampleScroll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.worksmobile.SampleScroll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -460,10 +464,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SampleScroll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.worksmobile.SampleScroll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -534,6 +541,7 @@
 				4A27FF5D1C08462B0092A400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A27FF5E1C08462B0092A400 /* Build configuration list for PBXNativeTarget "SampleScrollTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +550,7 @@
 				4A27FF601C08462B0092A400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A27FF611C08462B0092A400 /* Build configuration list for PBXNativeTarget "SampleScrollUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +559,7 @@
 				4A27FF631C08462B0092A400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
